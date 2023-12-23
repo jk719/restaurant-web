@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #e67e22, #d35400); /* Darker orange gradient */
+  color: white;
+  padding: 15px 30px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav {
+  /* Add navigation styles if necessary */
+}
+
+.auth-links input, .auth-links button {
+  padding: 8px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.auth-links input {
+  background-color: white;
+  color: #333;
+}
+
+.auth-links button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-links button:hover {
+  background-color: #45a049;
+}
+
+.hidden {
+  display: none;
+}
+
+#signupForm {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
